@@ -32,4 +32,19 @@ $(document).ready(function() {
       $(this).remove();
     });
   });
+
+  $("h2#userHeader").click(function(){
+    $("h2#userHeader").css('background-color', 'green');
+    $("h2#userHeader").click(function(){
+    $("h2#userHeader").remove();
+    });
+  });
+
+$("h2#webHeader").click(function(){
+  $("h2#webHeader").css('background-color', 'yellow');
+  $("h2#webHeader").click(function(){
+  $("h2#webHeader").remove();
+  });
+});
+
 });
